@@ -3,22 +3,22 @@
 .nav-container {
   display: flex;
   align-items: center;
-  width: 1170px;
+  width: 1290px;
   height: 97px;
   margin: 0 auto;
-  gap: 262px;
+  gap: 300px;
+  margin-left: 108px;
 }
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* gap: 3.2rem; */
 }
 
 #nav-links {
   display: flex;
   align-items: center;
-  gap: 52px;
+  gap: 64px;
   width: 312px;
 
   font-family: "Poppins";
@@ -68,6 +68,6 @@ Form img {
   background: #f54b4b;
   box-shadow: -6px 9px 24px -6px rgba(238, 67, 67, 0.68);
   border: 1px solid red;
-  padding: 1px 8px 1px 8px;
-  border-radius: 12px;
+  padding: 2px 10px 2px 10px;
+  border-radius: 16px;
 }
