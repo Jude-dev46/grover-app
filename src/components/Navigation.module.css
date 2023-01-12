@@ -38,6 +38,15 @@
 
   color: #f55253;
 }
+.link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #4d4d4d;
+}
 
 Form img {
   width: 20px;

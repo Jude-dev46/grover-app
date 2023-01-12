@@ -20,9 +20,15 @@ class Navigation extends Component {
               <Nav.Link className={classes.active} href="/">
                 Home
               </Nav.Link>
-              <Nav.Link href="/">Menu</Nav.Link>
-              <Nav.Link href="/">Service</Nav.Link>
-              <Nav.Link href="/">Shop</Nav.Link>
+              <Nav.Link className={classes.link} href="/">
+                Menu
+              </Nav.Link>
+              <Nav.Link className={classes.link} href="/">
+                Service
+              </Nav.Link>
+              <Nav.Link className={classes.link} href="/">
+                Shop
+              </Nav.Link>
             </Nav>
             <Form className="form-relative d-flex border border-0 bg-white rounded p-2 pt-1 pb-1 shadow z-index-1">
               <img src={search} alt="search icon" />
